@@ -1,5 +1,11 @@
+header{
+    background-color: rgb(252, 192, 202);
+    text-align: center;
+    padding: 2%;
+    color: white;
+}
 nav {
-    background-color: lightpink; /* Lichtroze achtergrond */
+    background-color: rgba(255, 182, 193, 0.707); /* Lichtroze achtergrond */
     text-align: center; /* Centraal uitlijnen */
     padding: 10px 0; /* Wat ruimte boven en onder */
 }
