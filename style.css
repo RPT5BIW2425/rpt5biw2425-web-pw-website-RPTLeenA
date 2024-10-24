@@ -1,0 +1,16 @@
+nav {
+    background-color: lightpink; /* Lichtroze achtergrond */
+    text-align: center; /* Centraal uitlijnen */
+    padding: 10px 0; /* Wat ruimte boven en onder */
+}
+
+nav a {
+    color: white; /* Witte tekst */
+    text-decoration: none; /* Geen onderstreping */
+    margin: 0 15px; /* Ruimte tussen de links */
+    font-size: 18px; /* Grotere tekstgrootte */
+}
+
+nav a:hover {
+    text-decoration: underline; /* Onderstreping bij hover */
+}
