@@ -1,8 +1,9 @@
 header{
     background-color: rgb(252, 192, 202);
     text-align: center;
-    padding: 2%;
+    padding: 2px;
     color: white;
+    font-size: x-large;
 }
 nav {
     background-color: rgba(255, 182, 193, 0.707); /* Lichtroze achtergrond */
@@ -14,9 +15,30 @@ nav a {
     color: white; /* Witte tekst */
     text-decoration: none; /* Geen onderstreping */
     margin: 0 15px; /* Ruimte tussen de links */
-    font-size: 18px; /* Grotere tekstgrootte */
+    font-size: larger; /* Grotere tekstgrootte */
 }
 
 nav a:hover {
     text-decoration: underline; /* Onderstreping bij hover */
+}
+img{
+    width: 500px;
+    
+}
+aside{
+    float: left;
+}
+main{
+    background-color:whitesmoke;
+    padding: 150px 0;
+    text-align: center;
+}
+footer img{
+    width: 200px;
+}
+footer{
+    text-align: center;
+}
+main img{
+    width: 500px;
 }
