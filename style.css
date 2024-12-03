@@ -1,0 +1,76 @@
+header{
+    background-color: rgb(252, 192, 202);
+    text-align: center;
+    padding: 2px;
+    color: white;
+    font-size: x-large;
+}
+nav {
+    background-color: rgba(255, 182, 193, 0.707); /* Lichtroze achtergrond */
+    text-align: center; /* Centraal uitlijnen */
+    padding: 10px 0; /* Wat ruimte boven en onder */
+}
+
+nav a {
+    color: white; /* Witte tekst */
+    text-decoration: none; /* Geen onderstreping */
+    margin: 0 15px; /* Ruimte tussen de links */
+    font-size: larger; /* Grotere tekstgrootte */
+}
+
+nav a:hover {
+    text-decoration: underline; /* Onderstreping bij hover */
+}
+img{
+    width: 500px;
+    
+}
+aside{
+    float: left;
+}
+main{
+    background-color:whitesmoke;
+    padding: 150px 0;
+    text-align: center;
+}
+footer img{
+    width: 200px;
+}
+footer{
+    text-align: center;
+} 
+
+
+#haar p{
+    color: rgb(245, 132, 151);
+    text-decoration: underline;
+    font-weight: bold;
+   
+
+}
+
+
+
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  
+  .flex-container > div {
+    margin: 10px;
+    text-align: left;
+    line-height: 75px;
+    font-size: 30px;
+  }
+  
+  .div1 {
+      width: 60%;
+      padding: 50px;
+  }
+  
+  .div2{
+      width: 40%;
+      text-align: right;
+      
+  }
